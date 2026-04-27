@@ -17,12 +17,13 @@ import SourceConfig from '/snippets/connectors/yaml/database/source-config.mdx'
 icon='/public/images/connectors/exasol.webp'
 name="Exasol"
 stage="PROD"
-availableFeatures={["Metadata"]}
-unavailableFeatures={["Query Usage", "Lineage", "Column-level Lineage", "Data Profiler", "Data Quality", "Owners", "dbt", "Tags", "Stored Procedures", "Sample Data", "Auto-Classification"]} />
+availableFeatures={["Metadata", "Lineage", "Column-level Lineage"]}
+unavailableFeatures={["Query Usage", "Data Profiler", "Data Quality", "Owners", "dbt", "Tags", "Stored Procedures", "Sample Data", "Auto-Classification"]} />
 In this section, we provide guides and references to use the Exasol connector.
 Configure and schedule Exasol metadata and profiler workflows from the OpenMetadata UI:
 - [Requirements](#requirements)
 - [Metadata Ingestion](#metadata-ingestion)
+- [Lineage](/connectors/ingestion/lineage)
 <ExternalIngestionDeployment />
 ## Requirements
 ### Python Requirements
@@ -31,6 +32,15 @@ To run the Exasol ingestion, you will need to install:
 ```bash
 pip3 install "openmetadata-ingestion[Exasol]"
 ```
+
+### Database Privilege Requirements
+To ingest basic metadata, an Exasol user must have the following privileges:
+  - `USAGE` privilege on Schema
+  - `SELECT` privilege on Tables
+
+OpenMetadata fetches the query logs for the lineage workflow by querying `EXA_STATISTICS.EXA_DBA_AUDIT_SQL` table.
+For this, an Exasol user should be granted the `SELECT ANY DICTIONARY` system privilege.
+
 ## Metadata Ingestion
 ### 1. Define the YAML Config
 
