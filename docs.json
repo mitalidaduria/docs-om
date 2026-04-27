@@ -85,6 +85,7 @@
                     "group": "Docker Deployment",
                     "pages": [
                       "v1.12.x/deployment/docker",
+                      "v1.12.x/deployment/docker/advanced",
                       "v1.12.x/deployment/docker/security",
                       "v1.12.x/deployment/docker/subpath"
                     ]
@@ -128,7 +129,8 @@
                           "v1.12.x/deployment/ingestion/external/mwaa",
                           "v1.12.x/deployment/ingestion/external/gcp-composer",
                           "v1.12.x/deployment/ingestion/external/github-actions",
-                          "v1.12.x/deployment/ingestion/external/credentials"
+                          "v1.12.x/deployment/ingestion/external/credentials",
+                          "v1.12.x/deployment/ingestion/external/credentials-airflow"
                         ]
                       }
                     ]
@@ -264,7 +266,8 @@
                         ]
                       },
                       "v1.12.x/deployment/upgrade/docker",
-                      "v1.12.x/deployment/upgrade/kubernetes"
+                      "v1.12.x/deployment/upgrade/kubernetes",
+                      "v1.12.x/deployment/upgrade/kubernetes-troubleshooting"
                     ]
                   },
                   "v1.12.x/deployment/backup-restore-metadata",
@@ -2264,6 +2267,7 @@
                     "group": "Docker Deployment",
                     "pages": [
                       "v1.11.x/deployment/docker",
+                      "v1.11.x/deployment/docker/advanced",
                       "v1.11.x/deployment/docker/security",
                       "v1.11.x/deployment/docker/subpath"
                     ]
@@ -2301,7 +2305,8 @@
                           "v1.11.x/deployment/ingestion/external/mwaa",
                           "v1.11.x/deployment/ingestion/external/gcp-composer",
                           "v1.11.x/deployment/ingestion/external/github-actions",
-                          "v1.11.x/deployment/ingestion/external/credentials"
+                          "v1.11.x/deployment/ingestion/external/credentials",
+                          "v1.11.x/deployment/ingestion/external/credentials-airflow"
                         ]
                       }
                     ]
@@ -2436,7 +2441,8 @@
                         ]
                       },
                       "v1.11.x/deployment/upgrade/docker",
-                      "v1.11.x/deployment/upgrade/kubernetes"
+                      "v1.11.x/deployment/upgrade/kubernetes",
+                      "v1.11.x/deployment/upgrade/kubernetes-troubleshooting"
                     ]
                   },
                   "v1.11.x/deployment/backup-restore-metadata",
@@ -4354,6 +4360,7 @@
                     "group": "Docker Deployment",
                     "pages": [
                       "v1.13.x-SNAPSHOT/deployment/docker",
+                      "v1.13.x-SNAPSHOT/deployment/docker/advanced",
                       "v1.13.x-SNAPSHOT/deployment/docker/security",
                       "v1.13.x-SNAPSHOT/deployment/docker/subpath"
                     ]
@@ -4397,7 +4404,8 @@
                           "v1.13.x-SNAPSHOT/deployment/ingestion/external/mwaa",
                           "v1.13.x-SNAPSHOT/deployment/ingestion/external/gcp-composer",
                           "v1.13.x-SNAPSHOT/deployment/ingestion/external/github-actions",
-                          "v1.13.x-SNAPSHOT/deployment/ingestion/external/credentials"
+                          "v1.13.x-SNAPSHOT/deployment/ingestion/external/credentials",
+                          "v1.13.x-SNAPSHOT/deployment/ingestion/external/credentials-airflow"
                         ]
                       }
                     ]
@@ -4533,7 +4541,8 @@
                         ]
                       },
                       "v1.13.x-SNAPSHOT/deployment/upgrade/docker",
-                      "v1.13.x-SNAPSHOT/deployment/upgrade/kubernetes"
+                      "v1.13.x-SNAPSHOT/deployment/upgrade/kubernetes",
+                      "v1.13.x-SNAPSHOT/deployment/upgrade/kubernetes-troubleshooting"
                     ]
                   },
                   "v1.13.x-SNAPSHOT/deployment/backup-restore-metadata",
