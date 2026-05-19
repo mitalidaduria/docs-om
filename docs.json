@@ -143,7 +143,13 @@
                       {
                         "group": "External",
                         "pages": [
-                          "v1.12.x/deployment/ingestion/external",
+                          {
+                            "group": "External Ingestion",
+                            "pages": [
+                              "v1.12.x/deployment/ingestion/external",
+                              "v1.12.x/deployment/ingestion/external/examples"
+                            ]
+                          },
                           "v1.12.x/deployment/ingestion/external/airflow",
                           "v1.12.x/deployment/ingestion/external/airflow-docker-virtualenv",
                           {
@@ -1416,7 +1422,13 @@
                       "v1.12.x/how-to-guides/data-quality-observability/quality/configure",
                       "v1.12.x/how-to-guides/data-quality-observability/quality/tests-yaml",
                       "v1.12.x/how-to-guides/data-quality-observability/quality/tests-yaml-column-tests",
-                      "v1.12.x/how-to-guides/data-quality-observability/quality/tests-ui",
+                      {
+                        "group": "Tests - UI Config",
+                        "pages": [
+                          "v1.12.x/how-to-guides/data-quality-observability/quality/tests-ui",
+                          "v1.12.x/how-to-guides/data-quality-observability/quality/tests-ui/column-tests"
+                        ]
+                      },
                       "v1.12.x/how-to-guides/data-quality-observability/quality/dimensional-validation",
                       {
                         "group": "Data Quality as Code",
@@ -1432,7 +1444,13 @@
                           },
                           "v1.12.x/how-to-guides/data-quality-observability/quality/data-quality-as-code/dataframe-validation",
                           "v1.12.x/how-to-guides/data-quality-observability/quality/data-quality-as-code/dataframe-validation-chunking",
-                          "v1.12.x/how-to-guides/data-quality-observability/quality/data-quality-as-code/test-definitions",
+                          {
+                            "group": "Test Definitions",
+                            "pages": [
+                              "v1.12.x/how-to-guides/data-quality-observability/quality/data-quality-as-code/test-definitions",
+                              "v1.12.x/how-to-guides/data-quality-observability/quality/data-quality-as-code/test-definitions/column-tests"
+                            ]
+                          },
                           "v1.12.x/how-to-guides/data-quality-observability/quality/data-quality-as-code/advanced-usage",
                           "v1.12.x/how-to-guides/data-quality-observability/quality/data-quality-as-code/publishing-and-best-practices"
                         ]
@@ -2373,11 +2391,16 @@
                           "v1.11.x/deployment/ingestion/openmetadata/troubleshooting"
                         ]
                       },
-                      "v1.11.x/deployment/ingestion/external",
                       {
                         "group": "External",
                         "pages": [
-                          "v1.11.x/deployment/ingestion/external",
+                          {
+                            "group": "External Ingestion",
+                            "pages": [
+                              "v1.11.x/deployment/ingestion/external",
+                              "v1.11.x/deployment/ingestion/external/examples"
+                            ]
+                          },
                           "v1.11.x/deployment/ingestion/external/airflow",
                           "v1.11.x/deployment/ingestion/external/airflow-docker-virtualenv",
                           {
@@ -3609,7 +3632,13 @@
                       "v1.11.x/how-to-guides/data-quality-observability/quality/configure",
                       "v1.11.x/how-to-guides/data-quality-observability/quality/tests-yaml",
                       "v1.11.x/how-to-guides/data-quality-observability/quality/tests-yaml-column-tests",
-                      "v1.11.x/how-to-guides/data-quality-observability/quality/tests-ui",
+                      {
+                        "group": "Tests - UI Config",
+                        "pages": [
+                          "v1.11.x/how-to-guides/data-quality-observability/quality/tests-ui",
+                          "v1.11.x/how-to-guides/data-quality-observability/quality/tests-ui/column-tests"
+                        ]
+                      },
                       "v1.11.x/how-to-guides/data-quality-observability/quality/dimensional-validation",
                       {
                         "group": "Data Quality as Code",
@@ -3625,7 +3654,13 @@
                           },
                           "v1.11.x/how-to-guides/data-quality-observability/quality/data-quality-as-code/dataframe-validation",
                           "v1.11.x/how-to-guides/data-quality-observability/quality/data-quality-as-code/dataframe-validation-chunking",
-                          "v1.11.x/how-to-guides/data-quality-observability/quality/data-quality-as-code/test-definitions",
+                          {
+                            "group": "Test Definitions",
+                            "pages": [
+                              "v1.11.x/how-to-guides/data-quality-observability/quality/data-quality-as-code/test-definitions",
+                              "v1.11.x/how-to-guides/data-quality-observability/quality/data-quality-as-code/test-definitions/column-tests"
+                            ]
+                          },
                           "v1.11.x/how-to-guides/data-quality-observability/quality/data-quality-as-code/advanced-usage",
                           "v1.11.x/how-to-guides/data-quality-observability/quality/data-quality-as-code/publishing-and-best-practices"
                         ]
@@ -4535,7 +4570,13 @@
                       {
                         "group": "External",
                         "pages": [
-                          "v1.13.x-SNAPSHOT/deployment/ingestion/external",
+                          {
+                            "group": "External Ingestion",
+                            "pages": [
+                              "v1.13.x-SNAPSHOT/deployment/ingestion/external",
+                              "v1.13.x-SNAPSHOT/deployment/ingestion/external/examples"
+                            ]
+                          },
                           "v1.13.x-SNAPSHOT/deployment/ingestion/external/airflow",
                           "v1.13.x-SNAPSHOT/deployment/ingestion/external/airflow-docker-virtualenv",
                           {
@@ -5816,7 +5857,13 @@
                       "v1.13.x-SNAPSHOT/how-to-guides/data-quality-observability/quality/configure",
                       "v1.13.x-SNAPSHOT/how-to-guides/data-quality-observability/quality/tests-yaml",
                       "v1.13.x-SNAPSHOT/how-to-guides/data-quality-observability/quality/tests-yaml-column-tests",
-                      "v1.13.x-SNAPSHOT/how-to-guides/data-quality-observability/quality/tests-ui",
+                      {
+                        "group": "Tests - UI Config",
+                        "pages": [
+                          "v1.13.x-SNAPSHOT/how-to-guides/data-quality-observability/quality/tests-ui",
+                          "v1.13.x-SNAPSHOT/how-to-guides/data-quality-observability/quality/tests-ui/column-tests"
+                        ]
+                      },
                       "v1.13.x-SNAPSHOT/how-to-guides/data-quality-observability/quality/dimensional-validation",
                       {
                         "group": "Data Quality as Code",
@@ -5832,7 +5879,13 @@
                           },
                           "v1.13.x-SNAPSHOT/how-to-guides/data-quality-observability/quality/data-quality-as-code/dataframe-validation",
                           "v1.13.x-SNAPSHOT/how-to-guides/data-quality-observability/quality/data-quality-as-code/dataframe-validation-chunking",
-                          "v1.13.x-SNAPSHOT/how-to-guides/data-quality-observability/quality/data-quality-as-code/test-definitions",
+                          {
+                            "group": "Test Definitions",
+                            "pages": [
+                              "v1.13.x-SNAPSHOT/how-to-guides/data-quality-observability/quality/data-quality-as-code/test-definitions",
+                              "v1.13.x-SNAPSHOT/how-to-guides/data-quality-observability/quality/data-quality-as-code/test-definitions/column-tests"
+                            ]
+                          },
                           "v1.13.x-SNAPSHOT/how-to-guides/data-quality-observability/quality/data-quality-as-code/advanced-usage",
                           "v1.13.x-SNAPSHOT/how-to-guides/data-quality-observability/quality/data-quality-as-code/publishing-and-best-practices"
                         ]
