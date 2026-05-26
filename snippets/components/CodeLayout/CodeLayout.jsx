@@ -1,4 +1,5 @@
 import React from 'react';
+import './CodeLayout.css';
 
 export const CodeLayout = ({ title, description, children }) => (
   <div className="code-layout">
