@@ -5064,6 +5064,14 @@
                         ]
                       },
                       {
+                        "group": "QuestDB",
+                        "pages": [
+                          "v1.13.x-SNAPSHOT/connectors/database/questdb",
+                          "v1.13.x-SNAPSHOT/connectors/database/questdb/yaml",
+                          "v1.13.x-SNAPSHOT/connectors/database/questdb/troubleshooting"
+                        ]
+                      },
+                      {
                         "group": "Redshift",
                         "pages": [
                           "v1.13.x-SNAPSHOT/connectors/database/redshift",
