@@ -43,3 +43,32 @@ Ready to dive in?
 <a href="https://openmetadatastandards.org/" target="_blank" rel="noopener noreferrer" className="link">Visit openmetadatastandards.org</a>
 
 You'll find quick starts, schema references, semantic web resources, and contribution guides on the official site.
+
+## Machine Learning & Data Governance Expansion
+
+The following terms bridge common machine learning and data governance concepts to business-friendly language, with payments-domain examples showing how each one shows up in practice.
+
+#### Model Drift
+* **Technical Definition**: Performance degradation of a model over time caused by changes in real-world data distribution.
+* **Business Translation**: The model's predictions become less accurate as customer habits or external conditions evolve.
+* **Payments Example**: A fraud detection model trained on pre-holiday spending flags normal holiday shopping sprees as fraudulent.
+
+#### Data Lineage
+* **Technical Definition**: The complete lifecycle trajectory of data, tracking its origins, transformations, and final destinations.
+* **Business Translation**: A visible paper trail showing where data came from and how it was modified before reaching reports.
+* **Payments Example**: Tracing a payout error back through intermediate currency conversions to the raw transaction record.
+
+#### Feature Engineering
+* **Technical Definition**: The process of selecting, manipulating, and transforming raw data into useful input variables for machine learning models.
+* **Business Translation**: Converting raw transaction records into meaningful signals that help the model spot patterns.
+* **Payments Example**: Transforming raw transaction timestamps into a "transactions per hour" velocity feature to detect card-testing bots.
+
+#### Label Skew
+* **Technical Definition**: Discrepancy between ground truth labels used during training and actual outcomes in production.
+* **Business Translation**: When real-world results don't match the historical data assumptions used to train the system.
+* **Payments Example**: A chargeback model trained only on settled transactions misses early fraud patterns from pending authorizations.
+
+#### Data Quality SLA (Service Level Agreement)
+* **Technical Definition**: Formal agreements defining measurable thresholds for data accuracy, completeness, latency, and freshness.
+* **Business Translation**: Guaranteed standards ensuring data arrives on time and is reliable enough for business operations.
+* **Payments Example**: A operational rule requiring payment reconciliation feeds to be updated within 15 minutes with 99.9% completeness.
