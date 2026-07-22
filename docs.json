@@ -1489,7 +1489,8 @@
                         ]
                       },
                       "v1.13.x/how-to-guides/data-quality-observability/quality/custom-tests",
-                      "v1.13.x/how-to-guides/data-quality-observability/quality/test-library"
+                      "v1.13.x/how-to-guides/data-quality-observability/quality/test-library",
+                      "v1.13.x/how-to-guides/data-quality/fintech-data-quality-framework"
                     ]
                   },
                   {
